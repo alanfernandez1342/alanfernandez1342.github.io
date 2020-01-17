@@ -1,0 +1,92 @@
+*{	
+	font-family: cursive;
+	margin:0 auto;
+	padding: 0;
+}
+header{
+position: absolute;
+width: 100%;
+z-index: 90;
+top: 0;
+}
+:root{
+	--verdeclaro: #b9f717;
+}
+#logo{
+	width: 180px;
+	height: 180px
+}
+#titulo{
+	position: absolute;
+	top: 8%;
+	left:10%;
+	color: white;
+	font-size: 25px;
+	background-color: #000000aa;
+	width: 62%;
+	left:10%;
+	padding-left:90px;
+	padding-right: 0;
+	z-index: 20;
+
+}
+#backstyle3{
+	z-index: -99;
+	background-image: url("../imagenes/backstyle34.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+	right: 0;
+	border-bottom: double 2px #b9f717;
+	-webkit-box-shadow: 13px 12px 4px 5px #000000; 
+	box-shadow: 0px 1px 30px -6px #000000;
+}
+nav{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	width: 100%;
+	top: 40%;
+}
+nav	a{
+	font-size:25px;
+	text-decoration: none;
+}
+#seleccionado{
+	color: var(--verdeclaro);
+	font-size: 40px;
+}
+.noseleccionado{
+	color: white;
+	margin-top: 10px;
+}
+#divsub{
+	position: absolute;
+	top: 162.5%;
+	width: 100%;
+	height: 40px;
+	color: black;
+	padding-top: 5px;
+	text-align: center;
+	border-top: var(--verdeclaro) 1px solid;
+	
+}
+main{
+	margin-top: 60px;
+	margin-left: 10px;
+
+}
+main p{
+	margin: 10px 0 5px 0;
+}
+main h3{
+	text-decoration: underline;
+}
+#maininicio{
+	display: flex;
+	flex-direction: row;
+
+}
+
