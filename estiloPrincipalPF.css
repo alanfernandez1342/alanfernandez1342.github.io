@@ -1,0 +1,31 @@
+#modulo1{
+	display: none;
+
+}
+ul{
+	list-style: none;
+}
+#modulo1 li{
+	margin: 1.5vh 0;
+}
+#modulo1:target{
+	display: flex;
+	flex-direction: column;
+
+}
+#linkmod1{
+
+	
+}
+#modulo1-task1 .animated{
+	animation-delay: 0s;
+}
+#modulo1-task2 .animated{
+	animation-delay: 0.4s;
+}
+#modulo1-task3 .animated{
+	animation-delay: 0.8s;
+}
+#modulo1-task4 .animated{
+	animation-delay: 1.2s;
+}
