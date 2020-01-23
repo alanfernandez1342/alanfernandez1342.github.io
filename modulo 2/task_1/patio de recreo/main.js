@@ -55,6 +55,7 @@ while(i<EdadesDelCurso.length){
 	}
 	i++;
 }
+console.log("Reemplazo while con for")
 i=0
 for (var i=0; i<EdadesDelCurso.length;i++){
 
@@ -62,3 +63,56 @@ for (var i=0; i<EdadesDelCurso.length;i++){
 		console.log(EdadesDelCurso[i]);
 	}
 }
+console.log("Ejercicio 3 array")
+var numeros=[1,42,33,12,22,31,13,18,25,41,37,31]
+function minimoDelArray(array){
+		var minimo;
+		for(var i=0; i<array.length; i++){
+			if (i==0)
+			{
+			minimo=array[i]	;
+			}
+			else if (minimo>array[i]) {
+				minimo=array[i];
+			}
+		}
+		console.log(minimo);
+}
+minimoDelArray(numeros);
+
+console.log("ejercicio 5 array");
+function maximoDelArray(array){
+		var maximo;
+		for(var i=0; i<array.length; i++){
+			if (i==0)
+			{
+			maximo=array[i]	;
+			}
+			else if (maximo<array[i]) {
+				maximo=array[i];
+			}
+		}
+		console.log(maximo);
+}
+maximoDelArray(numeros);
+
+console.log("Ejercicio 6 array");
+function posicionDelArray(array,index){
+		
+		console.log(array[index-1]);
+	}
+posicionDelArray(numeros,4);
+
+console.log("ejercicio 6");
+
+var numerosrepetidos = [3,6,67,6,23,11,100,8,93,0,17,24,7,1,33,45,28,33,23,12,99,100];
+function imprimirRepetidos(array){
+for (var i=0; i<array.length;i++){
+	for (var j=i+1; j<array.length; j++){
+		if (array[i]==array[j]) {
+			console.log(array[i]);
+		}
+	}
+} 
+}
+imprimirRepetidos(numerosrepetidos);
